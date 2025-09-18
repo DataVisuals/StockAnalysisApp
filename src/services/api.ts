@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { StockData, NewsItem, ForecastData, LLMPredictionData, LLMBacktestData, SearchResult } from '../types';
 
-const API_BASE_URL = 'http://192.168.1.125:8001';
+const API_BASE_URL = 'http://192.168.1.111:8001';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
